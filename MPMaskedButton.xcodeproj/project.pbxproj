@@ -14,7 +14,7 @@
 		5F46CA261A4633B6006FB476 /* MPMaskedButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F46CA241A4633B6006FB476 /* MPMaskedButton.m */; };
 		5F46CA291A4633DF006FB476 /* MPMaskedButtonCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F46CA271A4633DF006FB476 /* MPMaskedButtonCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5F46CA2A1A4633DF006FB476 /* MPMaskedButtonCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F46CA281A4633DF006FB476 /* MPMaskedButtonCell.m */; };
-		5F46CA2D1A46366B006FB476 /* MPMaskedButtonRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F46CA2B1A46366B006FB476 /* MPMaskedButtonRenderer.h */; };
+		5F46CA2D1A46366B006FB476 /* MPMaskedButtonRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F46CA2B1A46366B006FB476 /* MPMaskedButtonRenderer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5F46CA2E1A46366B006FB476 /* MPMaskedButtonRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F46CA2C1A46366B006FB476 /* MPMaskedButtonRenderer.m */; };
 		5FEEE06D1B67F9CA00F298BC /* MPHoverButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 5FEEE06B1B67F9CA00F298BC /* MPHoverButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5FEEE06E1B67F9CA00F298BC /* MPHoverButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FEEE06C1B67F9CA00F298BC /* MPHoverButton.m */; };
