@@ -1,0 +1,685 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5F2CFF611A46332600E3A4DC /* MPMaskedButtonFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F2CFF601A46332600E3A4DC /* MPMaskedButtonFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5F2CFF671A46332600E3A4DC /* MPMaskedButton.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F2CFF5B1A46332600E3A4DC /* MPMaskedButton.framework */; };
+		5F2CFF6E1A46332600E3A4DC /* MPMaskedButtonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F2CFF6D1A46332600E3A4DC /* MPMaskedButtonTests.m */; };
+		5F46CA251A4633B6006FB476 /* MPMaskedButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F46CA231A4633B6006FB476 /* MPMaskedButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5F46CA261A4633B6006FB476 /* MPMaskedButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F46CA241A4633B6006FB476 /* MPMaskedButton.m */; };
+		5F46CA291A4633DF006FB476 /* MPMaskedButtonCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F46CA271A4633DF006FB476 /* MPMaskedButtonCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5F46CA2A1A4633DF006FB476 /* MPMaskedButtonCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F46CA281A4633DF006FB476 /* MPMaskedButtonCell.m */; };
+		5F46CA2D1A46366B006FB476 /* MPMaskedButtonRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F46CA2B1A46366B006FB476 /* MPMaskedButtonRenderer.h */; };
+		5F46CA2E1A46366B006FB476 /* MPMaskedButtonRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F46CA2C1A46366B006FB476 /* MPMaskedButtonRenderer.m */; };
+		5FEEE06D1B67F9CA00F298BC /* MPHoverButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 5FEEE06B1B67F9CA00F298BC /* MPHoverButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5FEEE06E1B67F9CA00F298BC /* MPHoverButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FEEE06C1B67F9CA00F298BC /* MPHoverButton.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5F2CFF681A46332600E3A4DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5F2CFF521A46332600E3A4DC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5F2CFF5A1A46332600E3A4DC;
+			remoteInfo = MPMaskedButton;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5F2CFF5B1A46332600E3A4DC /* MPMaskedButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MPMaskedButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F2CFF5F1A46332600E3A4DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F2CFF601A46332600E3A4DC /* MPMaskedButtonFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MPMaskedButtonFramework.h; sourceTree = "<group>"; };
+		5F2CFF661A46332600E3A4DC /* MPMaskedButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MPMaskedButtonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F2CFF6C1A46332600E3A4DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F2CFF6D1A46332600E3A4DC /* MPMaskedButtonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MPMaskedButtonTests.m; sourceTree = "<group>"; };
+		5F46CA231A4633B6006FB476 /* MPMaskedButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPMaskedButton.h; sourceTree = "<group>"; };
+		5F46CA241A4633B6006FB476 /* MPMaskedButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPMaskedButton.m; sourceTree = "<group>"; };
+		5F46CA271A4633DF006FB476 /* MPMaskedButtonCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPMaskedButtonCell.h; sourceTree = "<group>"; };
+		5F46CA281A4633DF006FB476 /* MPMaskedButtonCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPMaskedButtonCell.m; sourceTree = "<group>"; };
+		5F46CA2B1A46366B006FB476 /* MPMaskedButtonRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPMaskedButtonRenderer.h; sourceTree = "<group>"; };
+		5F46CA2C1A46366B006FB476 /* MPMaskedButtonRenderer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPMaskedButtonRenderer.m; sourceTree = "<group>"; };
+		5FEEE06B1B67F9CA00F298BC /* MPHoverButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPHoverButton.h; sourceTree = "<group>"; };
+		5FEEE06C1B67F9CA00F298BC /* MPHoverButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPHoverButton.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5F2CFF571A46332600E3A4DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F2CFF631A46332600E3A4DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F2CFF671A46332600E3A4DC /* MPMaskedButton.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5F2CFF511A46332600E3A4DC = {
+			isa = PBXGroup;
+			children = (
+				5F2CFF5D1A46332600E3A4DC /* MPMaskedButton */,
+				5F2CFF6A1A46332600E3A4DC /* MPMaskedButtonTests */,
+				5F2CFF5C1A46332600E3A4DC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5F2CFF5C1A46332600E3A4DC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5F2CFF5B1A46332600E3A4DC /* MPMaskedButton.framework */,
+				5F2CFF661A46332600E3A4DC /* MPMaskedButtonTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5F2CFF5D1A46332600E3A4DC /* MPMaskedButton */ = {
+			isa = PBXGroup;
+			children = (
+				5F2CFF601A46332600E3A4DC /* MPMaskedButtonFramework.h */,
+				5F2CFF5E1A46332600E3A4DC /* Supporting Files */,
+				5F46CA231A4633B6006FB476 /* MPMaskedButton.h */,
+				5F46CA241A4633B6006FB476 /* MPMaskedButton.m */,
+				5FEEE06B1B67F9CA00F298BC /* MPHoverButton.h */,
+				5FEEE06C1B67F9CA00F298BC /* MPHoverButton.m */,
+				5F46CA271A4633DF006FB476 /* MPMaskedButtonCell.h */,
+				5F46CA281A4633DF006FB476 /* MPMaskedButtonCell.m */,
+				5F46CA2B1A46366B006FB476 /* MPMaskedButtonRenderer.h */,
+				5F46CA2C1A46366B006FB476 /* MPMaskedButtonRenderer.m */,
+			);
+			path = MPMaskedButton;
+			sourceTree = "<group>";
+		};
+		5F2CFF5E1A46332600E3A4DC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5F2CFF5F1A46332600E3A4DC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5F2CFF6A1A46332600E3A4DC /* MPMaskedButtonTests */ = {
+			isa = PBXGroup;
+			children = (
+				5F2CFF6D1A46332600E3A4DC /* MPMaskedButtonTests.m */,
+				5F2CFF6B1A46332600E3A4DC /* Supporting Files */,
+			);
+			path = MPMaskedButtonTests;
+			sourceTree = "<group>";
+		};
+		5F2CFF6B1A46332600E3A4DC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5F2CFF6C1A46332600E3A4DC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		5F2CFF581A46332600E3A4DC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F46CA291A4633DF006FB476 /* MPMaskedButtonCell.h in Headers */,
+				5FEEE06D1B67F9CA00F298BC /* MPHoverButton.h in Headers */,
+				5F46CA251A4633B6006FB476 /* MPMaskedButton.h in Headers */,
+				5F2CFF611A46332600E3A4DC /* MPMaskedButtonFramework.h in Headers */,
+				5F46CA2D1A46366B006FB476 /* MPMaskedButtonRenderer.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		5F2CFF5A1A46332600E3A4DC /* MPMaskedButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F2CFF711A46332600E3A4DC /* Build configuration list for PBXNativeTarget "MPMaskedButton" */;
+			buildPhases = (
+				5F2CFF561A46332600E3A4DC /* Sources */,
+				5F2CFF571A46332600E3A4DC /* Frameworks */,
+				5F2CFF581A46332600E3A4DC /* Headers */,
+				5F2CFF591A46332600E3A4DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MPMaskedButton;
+			productName = MPMaskedButton;
+			productReference = 5F2CFF5B1A46332600E3A4DC /* MPMaskedButton.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5F2CFF651A46332600E3A4DC /* MPMaskedButtonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F2CFF741A46332600E3A4DC /* Build configuration list for PBXNativeTarget "MPMaskedButtonTests" */;
+			buildPhases = (
+				5F2CFF621A46332600E3A4DC /* Sources */,
+				5F2CFF631A46332600E3A4DC /* Frameworks */,
+				5F2CFF641A46332600E3A4DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5F2CFF691A46332600E3A4DC /* PBXTargetDependency */,
+			);
+			name = MPMaskedButtonTests;
+			productName = MPMaskedButtonTests;
+			productReference = 5F2CFF661A46332600E3A4DC /* MPMaskedButtonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5F2CFF521A46332600E3A4DC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Matias Piipari";
+				TargetAttributes = {
+					5F2CFF5A1A46332600E3A4DC = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					5F2CFF651A46332600E3A4DC = {
+						CreatedOnToolsVersion = 6.1;
+					};
+				};
+			};
+			buildConfigurationList = 5F2CFF551A46332600E3A4DC /* Build configuration list for PBXProject "MPMaskedButton" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5F2CFF511A46332600E3A4DC;
+			productRefGroup = 5F2CFF5C1A46332600E3A4DC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5F2CFF5A1A46332600E3A4DC /* MPMaskedButton */,
+				5F2CFF651A46332600E3A4DC /* MPMaskedButtonTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5F2CFF591A46332600E3A4DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F2CFF641A46332600E3A4DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5F2CFF561A46332600E3A4DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F46CA261A4633B6006FB476 /* MPMaskedButton.m in Sources */,
+				5F46CA2A1A4633DF006FB476 /* MPMaskedButtonCell.m in Sources */,
+				5F46CA2E1A46366B006FB476 /* MPMaskedButtonRenderer.m in Sources */,
+				5FEEE06E1B67F9CA00F298BC /* MPHoverButton.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F2CFF621A46332600E3A4DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F2CFF6E1A46332600E3A4DC /* MPMaskedButtonTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5F2CFF691A46332600E3A4DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5F2CFF5A1A46332600E3A4DC /* MPMaskedButton */;
+			targetProxy = 5F2CFF681A46332600E3A4DC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5F2CFF6F1A46332600E3A4DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5F2CFF701A46332600E3A4DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5F2CFF721A46332600E3A4DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = MPMaskedButton/Info.plist;
+				INSTALL_PATH = "@rpath";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.manuscripts.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		5F2CFF731A46332600E3A4DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = MPMaskedButton/Info.plist;
+				INSTALL_PATH = "@rpath";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.manuscripts.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		5F2CFF751A46332600E3A4DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MPMaskedButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.manuscripts.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5F2CFF761A46332600E3A4DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MPMaskedButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.manuscripts.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5F511A5A1BB75401005E4A2E /* AppStoreDebug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = AppStoreDebug;
+		};
+		5F511A5B1BB75401005E4A2E /* AppStoreDebug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = MPMaskedButton/Info.plist;
+				INSTALL_PATH = "@rpath";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.manuscripts.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = AppStoreDebug;
+		};
+		5F511A5C1BB75401005E4A2E /* AppStoreDebug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MPMaskedButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.manuscripts.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = AppStoreDebug;
+		};
+		5F511A5D1BB75406005E4A2E /* AppStoreRelease */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = AppStoreRelease;
+		};
+		5F511A5E1BB75406005E4A2E /* AppStoreRelease */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = MPMaskedButton/Info.plist;
+				INSTALL_PATH = "@rpath";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.manuscripts.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = AppStoreRelease;
+		};
+		5F511A5F1BB75406005E4A2E /* AppStoreRelease */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MPMaskedButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.manuscripts.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = AppStoreRelease;
+		};
+		5FF7BE021B7D4BDF00A9C12B /* Testing */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Testing;
+		};
+		5FF7BE031B7D4BDF00A9C12B /* Testing */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = MPMaskedButton/Info.plist;
+				INSTALL_PATH = "@rpath";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.manuscripts.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Testing;
+		};
+		5FF7BE041B7D4BDF00A9C12B /* Testing */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MPMaskedButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.manuscripts.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Testing;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5F2CFF551A46332600E3A4DC /* Build configuration list for PBXProject "MPMaskedButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F2CFF6F1A46332600E3A4DC /* Debug */,
+				5F511A5A1BB75401005E4A2E /* AppStoreDebug */,
+				5FF7BE021B7D4BDF00A9C12B /* Testing */,
+				5F2CFF701A46332600E3A4DC /* Release */,
+				5F511A5D1BB75406005E4A2E /* AppStoreRelease */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5F2CFF711A46332600E3A4DC /* Build configuration list for PBXNativeTarget "MPMaskedButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F2CFF721A46332600E3A4DC /* Debug */,
+				5F511A5B1BB75401005E4A2E /* AppStoreDebug */,
+				5FF7BE031B7D4BDF00A9C12B /* Testing */,
+				5F2CFF731A46332600E3A4DC /* Release */,
+				5F511A5E1BB75406005E4A2E /* AppStoreRelease */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5F2CFF741A46332600E3A4DC /* Build configuration list for PBXNativeTarget "MPMaskedButtonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F2CFF751A46332600E3A4DC /* Debug */,
+				5F511A5C1BB75401005E4A2E /* AppStoreDebug */,
+				5FF7BE041B7D4BDF00A9C12B /* Testing */,
+				5F2CFF761A46332600E3A4DC /* Release */,
+				5F511A5F1BB75406005E4A2E /* AppStoreRelease */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5F2CFF521A46332600E3A4DC /* Project object */;
+}
