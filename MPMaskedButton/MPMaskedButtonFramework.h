@@ -19,4 +19,4 @@ FOUNDATION_EXPORT const unsigned char MPMaskedButtonVersionString[];
 #import "MPMaskedButton.h"
 #import "MPHoverButton.h"
 #import "MPMaskedButtonCell.h"
-#import "MPaskedButtonRenderer.h"
+#import "MPMaskedButtonRenderer.h"
