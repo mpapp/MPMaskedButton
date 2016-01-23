@@ -1,7 +1,0 @@
-framework module MPMaskedButton {
-  umbrella header "MPMaskedButtonFramework.h"
-
-  export *
-  module * { export * }
-}
-
